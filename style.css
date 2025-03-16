@@ -872,7 +872,7 @@ dd em {
 
 /* SECTION CERTIFICATIONS */
 #certifications {
-    background: rgba(10, 20, 40, 1); /* Dark mode elegan */
+    background: linear-gradient(180deg,  rgba(5, 15, 30, 0.95) 0%, rgba(0, 0, 10, 1) 100%);
     color: white;
     padding: 100px 20px;
     text-align: center;
@@ -962,7 +962,7 @@ dd em {
 
 /* SECTION CONTACT */
 #contact {
-    background: linear-gradient(180deg,rgba(5, 15, 30, 0.95) 0%, rgba(0, 0, 10, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 10, 1) 0%, rgba(5, 15, 30, 0.95) 100%);
     color: white;
     text-align: center;
     padding: 100px 20px;
