@@ -77,8 +77,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const textElement = document.querySelector(".hero h1");
     const names = [
         "Ach. Miftakhul Huda",
-        "مفتاح الحدى (AR)",
-        "ミフタフル フダ (JP)"
     ];
     let nameIndex = 0;
     let letterIndex = 0;

@@ -357,11 +357,11 @@ header.scrolled {
     }
 }
 
-/* 🌌 SECTION ABOUT (ULTRA FUTURISTIC DESIGN) */
+/* 🌌 SECTION ABOUT - FINAL MEGA DESIGN */
 #about {
-    background: linear-gradient(180deg, rgba(5, 15, 30, 0.95) 0%, rgba(0, 0, 10, 1) 100%);
+    background: linear-gradient(180deg,  rgba(5, 15, 30, 0.95) 0%, rgba(0, 0, 10, 1) 100%);
     color: white;
-    padding: 100px 20px;
+    padding: 80px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -371,18 +371,18 @@ header.scrolled {
     overflow: hidden;
 }
 
-/* 🌌 ABOUT CONTAINER (FUTURISTIC NEOMORPHISM) */
+/* 🌟 CONTAINER - LEBIH MEGAH, LEBIH RAPI */
 .about-container {
     max-width: 850px;
-    background: linear-gradient(145deg, rgba(0, 255, 163, 0.15), rgba(0, 163, 255, 0.15));
+    background: rgba(255, 255, 255, 0.08);
     padding: 50px;
     border-radius: 20px;
     backdrop-filter: blur(20px);
     box-shadow: 
-        0px 10px 40px rgba(0, 255, 163, 0.4), 
+        0px 10px 40px rgba(0, 255, 163, 0.5), 
         inset 0px 0px 10px rgba(0, 255, 163, 0.2);
-    border: 3px solid transparent;
-    transition: all 0.5s ease;
+    border: 3px solid rgba(0, 255, 163, 0.5);
+    transition: all 0.4s ease;
     position: relative;
     overflow: hidden;
 }
@@ -390,22 +390,22 @@ header.scrolled {
 /* 🔥 BORDER ANIMASI FUTURISTIK */
 @keyframes neonGlow {
     0% { border-color: rgba(0, 255, 163, 0.5); }
-    50% { border-color: rgba(0, 163, 255, 0.7); }
+    50% { border-color: rgba(0, 163, 255, 0.8); }
     100% { border-color: rgba(0, 255, 163, 0.5); }
 }
 
 .about-container:hover {
     transform: translateY(-5px);
     box-shadow: 
-        0px 15px 50px rgba(0, 255, 163, 0.5), 
+        0px 15px 50px rgba(0, 255, 163, 0.6), 
         inset 0px 0px 15px rgba(0, 255, 163, 0.3);
     animation: neonGlow 3s infinite alternate;
 }
 
-/* 🌌 GRADIENT TEXT (3D FUTURISTIC EFFECT) */
+/* 🌟 JUDUL TEKS FUTURISTIK */
 .about-container h2 {
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 900;
     margin-bottom: 15px;
     background: linear-gradient(90deg, #00FFA3, #00A3FF, #FF00FF);
     -webkit-background-clip: text;
@@ -420,23 +420,22 @@ header.scrolled {
     text-shadow: 0px 0px 20px rgba(0, 255, 163, 1);
 }
 
-/* 🌌 PARAGRAF FUTURISTIK */
+/* ✨ TEKS PARAGRAF */
 .about-container p {
     font-size: 1.2rem;
     line-height: 1.8;
     opacity: 0.9;
     margin-bottom: 20px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.85);
     transition: opacity 0.3s ease-in-out, transform 0.3s ease;
 }
 
-/* 🌌 HOVER TEKS */
 .about-container:hover p {
     opacity: 1;
     transform: scale(1.02);
 }
 
-/* 🌌 BULATAN NEON FUTURISTIK */
+/* 🌌 NEON ORBS */
 .about-container::before,
 .about-container::after {
     content: '';
@@ -460,13 +459,13 @@ header.scrolled {
     right: -40px;
 }
 
-/* 🌌 ANIMASI BULATAN */
+/* 🔥 ANIMASI BULATAN */
 @keyframes floatGlow {
     0% { transform: scale(1); opacity: 0.8; }
     100% { transform: scale(1.4); opacity: 1; }
 }
 
-/* 🌌 PARTIKEL GLOW (ESTETIK FUTURISTIK) */
+/* 🌌 PARTIKEL GLOW */
 .about-container .particles {
     position: absolute;
     top: 0;
@@ -485,20 +484,20 @@ header.scrolled {
     animation: moveParticles 10s infinite alternate ease-in-out;
 }
 
-/* 🌌 GENERATE RANDOM PARTIKEL */
+/* ✨ RANDOM PARTIKEL */
 .about-container .particles div:nth-child(1) { top: 20%; left: 10%; animation-duration: 8s; }
 .about-container .particles div:nth-child(2) { top: 40%; left: 30%; animation-duration: 6s; }
 .about-container .particles div:nth-child(3) { top: 70%; left: 60%; animation-duration: 7s; }
 .about-container .particles div:nth-child(4) { top: 50%; left: 80%; animation-duration: 9s; }
 .about-container .particles div:nth-child(5) { top: 80%; left: 20%; animation-duration: 5s; }
 
-/* 🌌 ANIMASI PARTIKEL */
+/* 🌟 ANIMASI PARTIKEL */
 @keyframes moveParticles {
     0% { transform: translateY(0px) translateX(0px); opacity: 0.7; }
     100% { transform: translateY(-20px) translateX(20px); opacity: 1; }
 }
 
-/* 🌌 RESPONSIVE TABLET */
+/* 📱 RESPONSIVE MAXIMAL */
 @media (max-width: 1024px) {
     .about-container {
         max-width: 700px;
@@ -510,14 +509,13 @@ header.scrolled {
     }
     
     .about-container p {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 
-/* 🌌 RESPONSIVE HP */
 @media (max-width: 768px) {
     .about-container {
-        max-width: 550px;
+        max-width: 90%;
         padding: 35px;
     }
     
@@ -526,19 +524,35 @@ header.scrolled {
     }
     
     .about-container p {
-        font-size: 0.95rem;
+        font-size: 1rem;
     }
 }
 
-/* 🌌 RESPONSIVE HP KECIL */
 @media (max-width: 480px) {
     .about-container {
-        max-width: 90%;
+        max-width: 95%;
         padding: 30px;
+        border-radius: 15px;
     }
     
     .about-container h2 {
         font-size: 1.8rem;
+        letter-spacing: 1.5px;
+    }
+    
+    .about-container p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 360px) {
+    .about-container {
+        padding: 25px;
+    }
+    
+    .about-container h2 {
+        font-size: 1.6rem;
     }
     
     .about-container p {
@@ -546,12 +560,13 @@ header.scrolled {
     }
 }
 
-/* 🌌 SECTION EDUCATION (FUTURISTIC DESIGN) */
+/* 🌌 SECTION EDUCATION (FUTURISTIC DESIGN - FINAL) */
 #education {
     background: linear-gradient(180deg, rgba(0, 0, 10, 1) 0%, rgba(5, 15, 30, 0.95) 100%);
     color: white;
-    padding: 100px 20px;
+    padding: 80px 20px;
     text-align: center;
+    margin-bottom: 0;
     min-height: 100vh;
     position: relative;
     overflow: hidden;
@@ -567,7 +582,7 @@ header.scrolled {
 /* 🌌 JUDUL FUTURISTIK */
 #education h2 {
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 900;
     margin-bottom: 50px;
     background: linear-gradient(90deg, #00FFA3, #00A3FF);
     -webkit-background-clip: text;
@@ -580,28 +595,23 @@ header.scrolled {
 /* 🌌 TIMELINE FUTURISTIC */
 .timeline {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
     position: relative;
+    max-width: 800px;
+    margin: auto;
 }
 
-/* 🌌 GARIS TIMELINE GLOW */
+/* 🌌 GARIS TIMELINE */
 .timeline::before {
     content: '';
     position: absolute;
-    left: 50%;
-    top: 0;
     width: 4px;
     height: 100%;
     background: linear-gradient(180deg, #00FFA3, #00A3FF);
     border-radius: 2px;
+    left: 50%;
+    top: 0;
     transform: translateX(-50%);
-    animation: pulseGlow 3s infinite alternate;
-}
-
-/* 🌌 ANIMASI GARIS */
-@keyframes pulseGlow {
-    0% { box-shadow: 0 0 10px rgba(0, 255, 163, 0.5); }
-    100% { box-shadow: 0 0 20px rgba(0, 255, 163, 0.9); }
 }
 
 /* 🌌 ITEM TIMELINE */
@@ -609,11 +619,15 @@ header.scrolled {
     position: relative;
     width: 45%;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.07);
+    margin-bottom: 40px;
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 255, 163, 0.15);
     backdrop-filter: blur(15px);
     transition: all 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 /* 🌌 POSISI ITEM */
@@ -627,7 +641,7 @@ header.scrolled {
     text-align: left;
 }
 
-/* 🌌 EFEK HOVER */
+/* 🌌 HOVER EFFECT */
 .timeline li:hover {
     transform: translateY(-5px);
     box-shadow: 0px 15px 35px rgba(0, 255, 163, 0.5);
@@ -650,19 +664,34 @@ header.scrolled {
     color: #ddd;
     transition: transform 0.3s ease;
 }
+.timeline h3 {
+    text-align: left;
+}
+
+/* 🌌 RESPONSIVE LAPTOP */
+@media (max-width: 1024px) {
+    .timeline li {
+        width: 48%;
+    }
+    .timeline h3 {
+        text-align: left;
+    }
+}
 
 /* 🌌 RESPONSIVE TABLET */
 @media (max-width: 768px) {
     .timeline::before {
         left: 20px;
     }
+    .timeline h3 {
+        text-align: left;
+    }
 
     .timeline li {
         width: 100%;
         left: 0 !important;
-        margin-bottom: 10px;
         text-align: left;
-        padding-left: 50px;
+        padding-left: 40px;
     }
 }
 
@@ -670,6 +699,11 @@ header.scrolled {
 @media (max-width: 480px) {
     .timeline li {
         padding: 15px;
+        width: 100%;
+    }
+
+    .timeline h3 {
+        text-align: left;
     }
 
     .timeline h3 {
@@ -681,61 +715,81 @@ header.scrolled {
     }
 }
 
-/* SECTION EXPERIENCE */
+
+/* 🌌 SECTION EXPERIENCE (FUTURISTIC & RESPONSIVE) */
 #experience {
-    background: linear-gradient(180deg, rgba(5, 15, 30, 0.95) 0%, rgba(0, 0, 10, 1) 100%);
+    background: linear-gradient(180deg,  rgba(5, 15, 30, 0.95) 0%, rgba(0, 0, 10, 1) 100%);
     color: white;
-    padding: 100px 20px;
+    margin-top: 0;
+    padding: 80px 20px;
     text-align: center;
     min-height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
-/* Container */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 🌌 CONTAINER */
 #experience .container {
-    max-width: 900px;
+    max-width: 850px;
     margin: auto;
+    position: relative;
 }
 
-/* Judul */
+/* 🌌 JUDUL FUTURISTIK */
 #experience h2 {
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 50px;
     background: linear-gradient(90deg, #FFD700, #FF5733);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 15px rgba(255, 215, 0, 0.6);
 }
 
-/* LIST PENGALAMAN */
+/* 🌌 LIST PENGALAMAN */
 dl {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
     list-style: none;
-    padding-left: 0;
+    padding: 0;
 }
 
-/* Setiap item pengalaman */
+/* 🌌 ITEM PENGALAMAN */
 dt {
-    font-size: 1.4rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFD700;
     background: rgba(255, 255, 255, 0.08);
     padding: 15px 20px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 15px rgba(255, 215, 0, 0.2);
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(255, 215, 0, 0.15);
     display: flex;
     align-items: center;
     gap: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Efek hover */
+/* 🌌 EFEK HOVER */
 dt:hover {
     transform: translateY(-5px);
-    box-shadow: 0px 10px 25px rgba(255, 215, 0, 0.4);
+    box-shadow: 0px 10px 25px rgba(255, 215, 0, 0.3);
 }
 
-/* Detail pengalaman */
+/* 🌌 DETAIL PENGALAMAN */
 dd {
     font-size: 1.1rem;
     background: rgba(255, 255, 255, 0.05);
@@ -746,13 +800,13 @@ dd {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Efek hover detail */
+/* 🌌 EFEK HOVER DETAIL */
 dd:hover {
     transform: translateY(-3px);
     box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.2);
 }
 
-/* Strong & Emphasis */
+/* 🌌 TEKS STRONG & EMPHASIS */
 dd strong {
     color: #FFD700;
 }
@@ -762,85 +816,114 @@ dd em {
     font-style: normal;
 }
 
-/* RESPONSIVE */
+/* 🌌 RESPONSIVE LAPTOP */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 700px;
+    }
+}
+
+/* 🌌 RESPONSIVE TABLET */
 @media (max-width: 768px) {
     #experience h2 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     dt {
-        font-size: 1.2rem;
-        padding: 12px 15px;
+        font-size: 1.4rem;
+        padding: 14px 18px;
     }
 
     dd {
         font-size: 1rem;
+        padding: 14px 18px;
+    }
+}
+
+/* 🌌 RESPONSIVE HP */
+@media (max-width: 480px) {
+    .container {
+        max-width: 95%;
+    }
+
+    #experience h2 {
+        font-size: 1.8rem;
+    }
+
+    dt {
+        font-size: 1.3rem;
+        padding: 12px 15px;
+    }
+
+    dd {
+        font-size: 0.95rem;
         padding: 12px 15px;
     }
 }
 
-/* SECTION PORTFOLIO */
+
+/* 🌌 SECTION PORTFOLIO */
 #portfolio {
     background: linear-gradient(180deg, rgba(0, 0, 10, 1) 0%, rgba(5, 15, 30, 0.95) 100%);
     color: white;
-    padding: 100px 20px;
+    padding: 80px 20px;
     text-align: center;
+    min-height: 100vh;
 }
 
-/* Container */
+/* 🌌 CONTAINER */
 #portfolio .container {
     max-width: 1100px;
     margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
 }
 
-/* Judul */
+/* 🌌 JUDUL FUTURISTIK */
 #portfolio h2 {
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 50px;
     background: linear-gradient(90deg, #FFD700, #FF5733);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 15px rgba(255, 215, 0, 0.6);
 }
 
-/* GRID LAYOUT */
-#portfolio .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-/* CARD STYLE */
+/* 🌌 KARTU PORTFOLIO */
 #portfolio article {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.07);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 8px 20px rgba(255, 215, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Efek hover */
+/* 🌌 EFEK HOVER */
 #portfolio article:hover {
     transform: translateY(-5px);
     box-shadow: 0px 12px 30px rgba(255, 215, 0, 0.4);
 }
 
-/* GAMBAR */
+/* 🌌 GAMBAR */
 #portfolio article img {
     width: 100%;
-    height: 200px;
+    height: 220px;
     object-fit: cover;
     border-bottom: 3px solid #FFD700;
 }
 
-/* TEXT WRAPPER */
+/* 🌌 TEKS WRAPPER */
 #portfolio article h3 {
-    margin: 15px 0;
-    font-size: 1.4rem;
-    font-weight: 600;
+    margin: 15px 0 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
-/* LINK */
+/* 🌌 LINK */
 #portfolio article h3 a {
     color: #FFD700;
     text-decoration: none;
@@ -851,22 +934,56 @@ dd em {
     color: #FF5733;
 }
 
-/* DESKRIPSI */
+/* 🌌 DESKRIPSI */
 #portfolio article p {
     font-size: 1rem;
     line-height: 1.6;
     padding: 0 20px 20px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.85);
 }
 
-/* RESPONSIVE */
+/* 🌌 RESPONSIVE LAPTOP */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+/* 🌌 RESPONSIVE TABLET */
 @media (max-width: 768px) {
     #portfolio h2 {
-        font-size: 2rem;
+        font-size: 2.2rem;
+    }
+
+    #portfolio .container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+/* 🌌 RESPONSIVE HP */
+@media (max-width: 480px) {
+    .container {
+        max-width: 95%;
+    }
+
+    #portfolio h2 {
+        font-size: 1.8rem;
     }
 
     #portfolio .container {
         grid-template-columns: 1fr;
+    }
+
+    #portfolio article {
+        border-radius: 12px;
+    }
+
+    #portfolio article h3 {
+        font-size: 1.3rem;
+    }
+
+    #portfolio article p {
+        font-size: 0.95rem;
     }
 }
 
@@ -960,149 +1077,228 @@ dd em {
     }
 }
 
-/* SECTION CONTACT */
+/* 🌌 SECTION CONTACT */
 #contact {
     background: linear-gradient(180deg, rgba(0, 0, 10, 1) 0%, rgba(5, 15, 30, 0.95) 100%);
     color: white;
     text-align: center;
-    padding: 100px 20px;
+    padding: 80px 20px;
 }
 
-/* CONTAINER */
+/* 🌌 CONTAINER */
 #contact .container {
     max-width: 800px;
     margin: auto;
+    padding: 0 20px;
 }
 
-/* JUDUL SECTION */
+/* 🌌 JUDUL */
 #contact h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-    background: linear-gradient(90deg, #FFD700, #FF5733);
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, #FFD700, #FF5733, #FFD700);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 10px rgba(255, 215, 0, 0.8);
 }
 
-/* TEKS DESKRIPSI */
+/* 🌌 TEKS DESKRIPSI */
 #contact p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.7);
-    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 25px;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
 }
 
-/* CONTACT BUTTON CONTAINER */
+/* 🌌 CLOSING TEXT */
+.closing-text {
+    font-size: 1rem;
+    font-style: italic;
+    opacity: 0.75;
+    margin-top: 30px;
+}
+
+/* 🌌 KONTAINER LINK KONTAK */
 .contact-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
 }
 
-/* TOMBOL KONTAK */
+/* 🌌 FUTURISTIC BUTTON STYLE */
 .contact-btn {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
     color: white;
     text-decoration: none;
     padding: 12px 25px;
     border-radius: 50px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0px 4px 15px rgba(255, 215, 0, 0.3);
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
 }
 
-/* HOVER EFFECT */
-.contact-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0px 8px 25px rgba(255, 215, 0, 0.5);
-}
-
-/* WARNA UNTUK SETIAP TOMBOL */
+/* 🌌 GAYA WARNA FUTURISTIK UNTUK SETIAP TOMBOL */
 .telegram {
-    background: #0088cc;
+    background: linear-gradient(90deg, #0088cc, #00aaff);
+    border-color: #00aaff;
+    box-shadow: 0px 0px 10px rgba(0, 170, 255, 0.5);
 }
 
 .whatsapp {
-    background: #25D366;
+    background: linear-gradient(90deg, #25D366, #2ecc71);
+    border-color: #2ecc71;
+    box-shadow: 0px 0px 10px rgba(46, 204, 113, 0.5);
 }
 
 .gmail {
-    background: #D44638;
+    background: linear-gradient(90deg, #D44638, #ff6347);
+    border-color: #ff6347;
+    box-shadow: 0px 0px 10px rgba(255, 99, 71, 0.5);
 }
 
-/* RESPONSIVE */
+/* 🌌 EFEK HOVER */
+.contact-btn:hover {
+    color: #000;
+    background: white;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+    border-color: white;
+}
+
+/* 🌌 EFEK TEKAN (ACTIVE) */
+.contact-btn:active {
+    transform: scale(0.96);
+    background: rgba(255, 255, 255, 0.15);
+    border-color: white;
+}
+
+/* 🌌 RESPONSIVE DESIGN */
 @media (max-width: 768px) {
+    #contact {
+        padding: 60px 15px;
+    }
+
     #contact h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+
+    #contact p {
+        font-size: 1rem;
     }
 
     .contact-links {
         flex-direction: column;
         align-items: center;
+        gap: 10px;
     }
 
     .contact-btn {
-        width: 80%;
-        justify-content: center;
+        width: 100%;
+        max-width: 300px;
+        padding: 14px;
+        font-size: 1rem;
     }
 }
 
-/* FOOTER */
-footer {
-    background: linear-gradient(135deg, rgba(10, 10, 20, 1), rgba(30, 30, 50, 1)); /* Dark Theme */
-    color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 10px;
-    font-size: 1rem;
+@media (max-width: 480px) {
+    #contact {
+        padding: 50px 10px;
+    }
+
+    #contact h2 {
+        font-size: 1.5rem;
+    }
+
+    #contact p {
+        font-size: 0.95rem;
+    }
+
+    .contact-btn {
+        width: 100%;
+        max-width: 280px;
+        font-size: 0.95rem;
+        padding: 12px;
+    }
 }
 
-/* CONTAINER */
+/* 🌌 FOOTER - DARK FUTURISTIC */
+footer {
+    background: linear-gradient(135deg, #0A0A14, #1E1E32);
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    padding: 25px 15px;
+    font-size: 1rem;
+    border-top: 2px solid rgba(255, 215, 0, 0.2);
+}
+
+/* 🌌 CONTAINER */
 footer .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
-/* COPYRIGHT TEXT */
+/* 🌌 COPYRIGHT TEXT */
 footer p {
     font-size: 0.9rem;
     font-weight: 400;
-    margin-bottom: 10px;
+    opacity: 0.8;
+    letter-spacing: 0.5px;
 }
 
-/* SOCIAL MEDIA ICONS */
+/* 🌌 SOCIAL MEDIA ICONS */
 .social-links {
-    display: flex;
-    gap: 15px;
+    display: contents;
+    gap: 18px;
 }
 
-/* LINK STYLE */
+/* 🌌 ICON STYLE */
 .social-links a {
-    color: white;
-    font-size: 1.5rem;
-    transition: transform 0.3s ease, text-shadow 0.3s ease;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.6rem;
+    transition: color 0.3s ease, transform 0.2s ease, text-shadow 0.3s ease;
 }
 
-/* HOVER EFFECT */
+/* 🌌 HOVER EFFECT */
 .social-links a:hover {
-    transform: scale(1.2);
-    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+    color: #FFD700;
+    transform: scale(1.15);
+    text-shadow: 0px 0px 12px rgba(255, 215, 0, 0.6);
 }
 
-/* RESPONSIVE */
+/* 🌌 RESPONSIVE */
 @media (max-width: 768px) {
-    footer p {
-        font-size: 0.8rem;
+    footer {
+        padding: 20px 10px;
+    }
+
+    .social-links {
+        gap: 12px;
     }
 
     .social-links a {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
+    }
+
+    footer p {
+        font-size: 0.85rem;
     }
 }
 
