@@ -1,7 +1,4 @@
 User-agent: *
 Allow: /
 
-Disallow: /certifications
-Disallow: /images/certificate/
-
 Sitemap: https://amhportofolio.rf.gd/sitemap.xml
